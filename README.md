@@ -2,10 +2,10 @@
 <img src="https://avatars.githubusercontent.com/razn-id" width="200" height="200"/>
 </p>
 <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Welcome+To+Rest+Api+AlpisV2+" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Welcome+To+Rest+Api+Razan+" alt="">
 </p>
 <p align="center">
-<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-razn-id-red.svg?style=for-the-badge&logo=github"></a>
+<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-Razan-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/razn-id?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/razn-id?color=green&style=flat-square"></a>
@@ -23,7 +23,7 @@
 - ## STEP 1
   Forks Github Ini Klick Di Bawah
 
-[![Fork](https://telegra.ph/file/0ac5b4f21a7c153f3bfc7.png)](https://github.com/razn-id/api-alpis/fork)
+[![Fork](https://telegra.ph/file/0ac5b4f21a7c153f3bfc7.png)](https://github.com/razn-id/Api-Razan/fork)
 
 - ## STEP 2
   Buat Account Mongodb Dan Buat Database Klick Di Bawah
