@@ -18,15 +18,13 @@
 <a href="https://github.com/razn-id/Api-Razan/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained-No-red.svg"></a>&nbsp;&nbsp;
 </p>
 
-- # TUTORIAL 📌
-
 - ## STEP 1
   Forks Github Ini Klick Di Bawah
 
 [![Fork](https://telegra.ph/file/0ac5b4f21a7c153f3bfc7.png)](https://github.com/razn-id/Api-Razan/fork)
 
 - ## STEP 2
-  Buat Account Mongodb Dan Buat Database Klick Di Bawah
+  Buat Account Mongodb Dan Buat Database Klik Di Bawah
 
 [![Deploy to Render](https://telegra.ph/file/1bc5c9749e8a46d167619.png)](https://www.mongodb.com/cloud/atlas/register)
 
@@ -38,15 +36,13 @@ Buat Email SMTP
 
 - ## STEP 4
 
-Buat Account Render Klick Di bawah
+Buat Account Render Klik Di bawah
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/)
 
-Buat Web Service Baru
-
-Connect Account Github
-
-Connect repository Github Yang Kamu Fork Tadi
+- Buat Web Service Baru
+- Connect Account Github
+- Connect repository Github Yang Kamu Fork Tadi
 
 Build Command Paste
 
@@ -60,7 +56,7 @@ Start Command Paste
 npm start
 ```
 
-Klick Advanced Dan
+Klik Advanced Dan
 
 Tambah Environment Variable
 
@@ -76,12 +72,12 @@ recaptcha_key_1 = 'Key recaptchaV1 Kamu'
 recaptcha_key_2 = 'Key recaptchaV2 Kamu'
 ```
 
-Lepastu
+Selanjutnya
 
 Tekan Create web service
 
-lepas siap deploy add domain website kamu ke file setting dan buat key recaptcha kamu
-copy paste kat Environment Variable di
+Jiak sudah sukses deploy add domain website kamu ke file setting dan buat key recaptcha kamu.
+copy paste ke Environment Variable di
 
 ```
 recaptcha_key_1 = 'Key recaptchaV1 Kamu'
