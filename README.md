@@ -18,15 +18,13 @@
 <a href="https://github.com/razn-id/Api-Razan/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained-No-red.svg"></a>&nbsp;&nbsp;
 </p>
 
-- # TUTORIAL 📌
-
 - ## STEP 1
   Forks Github Ini Klick Di Bawah
 
 [![Fork](https://telegra.ph/file/0ac5b4f21a7c153f3bfc7.png)](https://github.com/razn-id/Api-Razan/fork)
 
 - ## STEP 2
-  Buat Account Mongodb Dan Buat Database Klick Di Bawah
+  Buat Account Mongodb Dan Buat Database Klik Di Bawah
 
 [![Deploy to Render](https://telegra.ph/file/1bc5c9749e8a46d167619.png)](https://www.mongodb.com/cloud/atlas/register)
 
@@ -38,15 +36,13 @@ Buat Email SMTP
 
 - ## STEP 4
 
-Buat Account Render Klick Di bawah
+Buat Account Render Klik Di bawah
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/)
 
-Buat Web Service Baru
-
-Connect Account Github
-
-Connect repository Github Yang Kamu Fork Tadi
+- Buat Web Service Baru
+- Connect Account Github
+- Connect repository Github Yang Kamu Fork Tadi
 
 Build Command Paste
 
@@ -60,7 +56,7 @@ Start Command Paste
 npm start
 ```
 
-Klick Advanced Dan
+Klik Advanced Dan
 
 Tambah Environment Variable
 
@@ -76,30 +72,24 @@ recaptcha_key_1 = 'Key recaptchaV1 Kamu'
 recaptcha_key_2 = 'Key recaptchaV2 Kamu'
 ```
 
-Lepastu
+Selanjutnya
 
 Tekan Create web service
 
-lepas siap deploy add domain website kamu ke file setting dan buat key recaptcha kamu
-copy paste kat Environment Variable di
+Jiak sudah sukses deploy add domain website kamu ke file setting dan buat key recaptcha kamu.
+copy paste ke Environment Variable di
 
 ```
 recaptcha_key_1 = 'Key recaptchaV1 Kamu'
 recaptcha_key_2 = 'Key recaptchaV2 Kamu'
 ```
 
-- ## Tutorial Youtube
-
-<a href="https://youtu.be/5K3YYuq7QoI"><img src="https://img.youtube.com/vi/5K3YYuq7QoI/sddefault.jpg" alt="">
-
-[`Tutorial In Youtube`](https://youtu.be/5K3YYuq7QoI)<br>
-
 - ## SETTING ⚙️
   File Setting `setting.js`
 
-[`Tukar Nama Creator Disini`](https://github.com/razn-id/Api-Razan/blob/master/settings.js#:~:text=creator%20%3D%20%27-,%E4%B9%82%F0%9D%98%BC%F0%9D%99%A1%F0%9D%99%9E%F0%9D%99%A5%E4%B9%82,-%27%20//%20Nama)<br>
-[`Tukar Port Disini`](https://github.com/razn-id/Api-Razan/blob/master/settings.js#:~:text=port%20%3D-,8080,-//port%20host)<br>
-[`Tukar Limit Apikey Disini`](https://github.com/razn-id/Api-Razan/blob/master/settings.js#:~:text=LimitApikey%20%3D-,200,-//%20Limit%20Apikey%20default)<br>
+[`Ganti Nama Creator Disini`](https://github.com/razn-id/Api-Razan/blob/master/settings.js#:~:text=creator%20%3D%20%27-,%E4%B9%82%F0%9D%98%BC%F0%9D%99%A1%F0%9D%99%9E%F0%9D%99%A5%E4%B9%82,-%27%20//%20Nama)<br>
+[`Ganti Port Disini`](https://github.com/razn-id/Api-Razan/blob/master/settings.js#:~:text=port%20%3D-,8080,-//port%20host)<br>
+[`Ganti Limit Apikey Disini`](https://github.com/razn-id/Api-Razan/blob/master/settings.js#:~:text=LimitApikey%20%3D-,200,-//%20Limit%20Apikey%20default)<br>
 
 ## Command Untuk Editing
 
@@ -153,9 +143,9 @@ or
 
 ## `Credit 💳 Script`
 
-<img src="https://avatars.githubusercontent.com/razn-id" width="200" height="200">
+<img src="https://avatars.githubusercontent.com/AlipBot" width="200" height="200">
 
-[`razn-id`](https://github.com/razn-id)<br>
+[`AlipBot`](https://github.com/AlipBot)<br>
 
 <img src="https://telegra.ph/file/1cbc7e659b35a053bf25f.png" width="150" height="150">
 
