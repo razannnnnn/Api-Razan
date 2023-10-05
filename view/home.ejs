@@ -100,7 +100,7 @@
         <div id="testimonial-slider" data-aos="fade-up">
           <div>
             <p>
-              Assalamualaikum, Saya Razan. Umur Saya 13, Saya Tinggal Di
+              Assalamualaikum, Saya Razan. Umur Saya 14, Saya Tinggal Di
               Indonesia, Jawa Timur, Kota Blitar. Boleh Menghubungi Saya Di
               <a href="https://www.instagram.com/rivqi.ajaa/" target="__blank"
                 >Instagram</a
@@ -193,6 +193,29 @@
       gtag("js", new Date());
 
       gtag("config", "G-PE8DZCWKTL");
+
+      // amplitude_http_api.js
+      $.ajax({
+        url: "https://api2.amplitude.com/2/httpapi",
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "*/*",
+        },
+        success: function () {
+          console.log(
+            JSON.stringify({
+              api_key: "a03329e2abaef02941e6ab7f09b077d6",
+              events: [
+                {
+                  device_id: "<INSERT DEVICE ID>",
+                  event_type: "Sign up",
+                },
+              ],
+            })
+          );
+        },
+      });
     </script>
   </body>
 </html>

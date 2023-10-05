@@ -159,19 +159,16 @@ router.post(
       );
       res.redirect("/signup");
     } else if (username.length < 4) {
-      req.flash("error_messages", "Username harus minimal 4 karakter");
+      req.flash("error_messages", "Username cannot be less than 4 characters");
       res.redirect("/signup");
     } else if (username.length > 20) {
-      req.flash(
-        "error_messages",
-        "Limit Username tidak boleh lebih 20 karakter"
-      );
+      req.flash("error_messages", "Username cannot exceed 20 characters");
       res.redirect("/signup");
     } else if (containsEmoji(username)) {
-      req.flash("error_messages", "Username Tidak boleh guna emoji");
+      req.flash("error_messages", "Username Can't Use Emoji");
       res.redirect("/signup");
     } else if (!checkemail) {
-      req.flash("error_messages", "Sorry kami terima Account Gmail Sahaja");
+      req.flash("error_messages", "Sorry, We Only Accept Email From Gmail");
       res.redirect("/signup");
     } else {
       user.findOne(
@@ -196,7 +193,7 @@ router.post(
                   if (err) throw err;
                   req.flash(
                     "success_messages",
-                    "Account Succes Create Sila Login"
+                    "Account has been created, please login"
                   );
                   res.redirect("/login");
                 });

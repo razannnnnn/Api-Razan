@@ -9,7 +9,7 @@ const textto = require("soundoftext-js");
 const googleIt = require("google-it");
 const { shortText } = require("limit-text-js");
 const Canvas = require("canvas");
-var request = require("request");
+const request = require("request");
 const TinyURL = require("tinyurl");
 const emoji = require("emoji-api");
 const isUrl = require("is-url");
@@ -67,12 +67,7 @@ async function cekKey(req, res, next) {
       message: "[!] Apikey Tidak Ditemukan",
     });
   } else if (!db.isVerified) {
-    return res.json({
-      status: false,
-      creator: `${creator}`,
-      message:
-        "[!] Silahkan Verifikasi Email terlebih dahulu sebelum menggunakan apikey",
-    });
+    return res.send(loghandler.verify)
   } else if (db.limitApikey === 0) {
     return res.json({
       status: false,
@@ -2972,17 +2967,27 @@ router.get("/api/islamic/tafsirsurah", cekKey, async (req, res, next) => {
     });
 });
 
-router.get("/api/islamic/asmaulhusna", cekKey, async (req, res) => {
+router.get("/api/islamic/asmaulhusnafull", cekKey, async (req, res) => {
   limitapikey(req.query.apikey);
-  var data = await fetchJson(
+  const result = await fetchJson(
     "https://raw.githubusercontent.com/razn-id/data-rest-api/main/asmaulhusna.json"
   );
   res.json({
     status: true,
     creator: `${creator}`,
-    result: {
-      data,
-    },
+    result,
+  });
+});
+router.get("/api/islamic/asmaulhusnarandom", cekKey, async (req, res) => {
+  limitapikey(req.query.apikey);
+  const data = await fetchJson(
+    "https://raw.githubusercontent.com/razn-id/data-rest-api/main/asmaulhusna.json"
+  );
+  const result = data[Math.floor(Math.random() * data.length)];
+  res.json({
+    status: true,
+    creator: `${creator}`,
+    result,
   });
 });
 

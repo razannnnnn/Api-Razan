@@ -23,12 +23,22 @@
     <style>
       body {
         font-family: "Poppins", sans-serif;
-        font-size: larger;
+        font-size: medium;
+        max-width: 80%;
+        margin: auto;
       }
 
       .customborder {
-        border-radius: 2%;
-        border: 2px solid #e95420;
+        border-radius: 10px; /* Element border radius */
+        border: 2px solid #176b87;
+        background-color: #fff; /* Element background color */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Element shadow effect */
+        padding: 20px; /* Added padding */
+      }
+      .loginhere {
+        font-size: medium;
+        text-decoration: none;
+        color: #007bff; /* Forgot Password link color */
       }
 
       input {
@@ -42,8 +52,15 @@
       }
 
       input[type="submit"] {
-        background-color: #04aa6d;
+        background-color: #007bff;
         color: white;
+        border: none; /* Remove button border */
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer; /* Change cursor on hover */
+      }
+      input[type="submit"]:hover {
+        background-color: #0056b3; /* Button background color on hover */
       }
 
       #message {
@@ -136,8 +153,10 @@
   </head>
 
   <body>
-    <div class="container">
-      <h1 class="text-center p-3">Register</h1>
+    <div
+      class="container d-flex justify-content-center align-items-center"
+      style="min-height: 100vh"
+    >
       <div
         style="margin: 0 auto"
         class="col-12 col-md-6 col-lg-5 p-5 customborder"
@@ -188,6 +207,7 @@
 
         <form action="/signup" method="POST">
           <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
+          <h1 class="text-center mb-4">Register</h1>
           <div class="mb-3">
             <label for="email">Enter Your Email</label>
             <input
@@ -253,13 +273,13 @@
           <div class="d-grid gap-3 mb-3">
             <input
               type="submit"
-              class="btn btn-lg btn-outline-success"
+              class="btn btn-lg btn-outline-primary"
               value="Register"
             />
           </div>
           <p>
             Already Registered ?
-            <a class="card-link" href="/login">Login Here</a>
+            <a class="card-link loginhere" href="/login">Login Here</a>
           </p>
         </form>
       </div>

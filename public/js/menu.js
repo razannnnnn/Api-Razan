@@ -1,35 +1,73 @@
-//
-tag_battery_status = document.querySelector("small#battery_status");
-tag_battery_level = document.querySelector("span#battery_level");
-
 //Baterry
-setInterval(function () {
-  navigator.getBattery().then((battery) => {
-    battery_level = String(battery.level).split(".")[1];
-    document.querySelector("span#battery_level").innerHTML = `${
-      battery_level.length <= 1 ? oud(Number(battery_level)) : battery_level
-    }% ${battery.charging ? "Charging" : "Discharging"}`;
-  });
-}, 10);
+// var batteryLevel = document.getElementById("batteryLevel");
+// var styleBatteryLevel = batteryLevel.style;
+// var percentageLevel = document.getElementById("percentageLevel");
+// navigator.getBattery().then(function (battery) {
+//   function updateAllBatteryInfo() {
+//     updateLevelInfo();
+//   }
+//   updateAllBatteryInfo();
+//   battery.addEventListener("levelchange", function () {
+//     setInterval(function () {
+//       updateLevelInfo();
+//     }, 1000);
+//   });
+//   function updateLevelInfo() {
+//     var numBattery = battery.level * 100;
+//     percentageLevel.textContent = Math.round(numBattery) + "%";
+//     styleBatteryLevel.height = numBattery + "%";
+//     if (numBattery <= 15) {
+//       styleBatteryLevel.background = "red";
+//     }
+//   }
+// });
+// Tanggal
+window.setTimeout("tgl()", 1000);
+function tgl() {
+  const myMonths = [
+    "Jan",
+    "Feb",
+    "March",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+  ];
+  const myDays = [
+    "Minggu",
+    "Senin",
+    "Selasa",
+    "Rabu",
+    "Kamis",
+    "Jumat",
+    "Sabtu",
+  ];
+  var tgl = new Date();
+  var day = tgl.getDate();
+  var bulan = tgl.getMonth();
+  var thisDay = tgl.getDay();
+  var ThisDay = myDays[thisDay];
+  var yy = tgl.getYear();
+  var year = yy < 1000 ? yy + 1900 : yy;
+  var tanggal = `${day} ${myMonths[bulan]} ${year}`;
+  setTimeout("tgl()", 1000);
+  document.getElementById("tanggal").innerHTML = tanggal;
+}
 
 // Get Ip
 $.getJSON("https://api.ipify.org?format=json", function (data) {
-  $("#ip").html(data.ip);
+  $("#ipaddress").html(data.ip);
 });
 
 //Visit
-var xhr = new XMLHttpRequest();
-xhr.open("GET", "https://api.countapi.xyz/hit/api.rivqi.my.id/visits");
-xhr.responseType = "json";
-xhr.onload = function () {
-  document.getElementById("visits").innerText = this.response.value;
-};
-xhr.send();
 
 //Jam
-let scrollToTopRoundedfasfauserninjaXfa2xtextprimary = document.querySelector(
-  "div#row-no-guttersalign-items-center"
-);
+let JamDigital = document.querySelector("h2#jamdinding");
 let fasfauserninjaXfa2xtextprimary = document.querySelector(
   "div#text-xsfont-weight-boldtext-uppercase-mb-1"
 );
@@ -71,6 +109,5 @@ setInterval(() => {
     .getSeconds()
     .toString()
     .padStart(2, 0);
-  scrollToTopRoundedfasfauserninjaXfa2xtextprimary.innerHTML =
-    jaM + ":" + mEnit + ":" + detIk;
+  JamDigital.innerHTML = jaM + ":" + mEnit + ":" + detIk + " " + "WIB";
 }, 250);
