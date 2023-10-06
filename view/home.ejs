@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Razan APIs</title>
     <meta name="description" content="Rest Api website" />
-    <meta name="author" content="Alip" />
+    <meta name="author" content="Razan" />
 
     <link rel="stylesheet" href="/css/base.css" />
     <link rel="stylesheet" href="/css/vendor.css" />
@@ -127,7 +127,7 @@
           <h1 class="intro-header" data-aos="fade-up">About Source Code</h1>
           <p class="lead" data-aos="fade-up">
             Script Rest APIs Razan?
-            <a href="https://github.com/AlipBot/Api-Alpis" target="__blank"
+            <a href="https://github.com/razn-id/Api-Razan" target="__blank"
               >Klik Di Sini</a
             ><br />
             Ada Masalah? Hubungi Saya Via
@@ -155,15 +155,15 @@
           <div class="col-twelve">
             <div class="copyright">
               <span
-                ><a href="https://github.com/AlipBot"
+                ><a href="https://github.com/razn-id"
                   >2023 ©️Razan - All Rights Reserved</a
                 ></span
               >
             </div>
             <div id="go-top">
               <a class="smoothscroll" title="Back to Top" href="#top"
-                ><i class="icon-arrow-up"></i
-              ></a>
+                ><i class="fa-solid fa-arrow-up"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -193,29 +193,6 @@
       gtag("js", new Date());
 
       gtag("config", "G-PE8DZCWKTL");
-
-      // amplitude_http_api.js
-      $.ajax({
-        url: "https://api2.amplitude.com/2/httpapi",
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "*/*",
-        },
-        success: function () {
-          console.log(
-            JSON.stringify({
-              api_key: "a03329e2abaef02941e6ab7f09b077d6",
-              events: [
-                {
-                  device_id: "<INSERT DEVICE ID>",
-                  event_type: "Sign up",
-                },
-              ],
-            })
-          );
-        },
-      });
     </script>
   </body>
 </html>
