@@ -1683,82 +1683,82 @@ router.get("/api/game/dare", cekKey, async (req, res, next) => {
 });
 
 //―――――――――――――――――――――――――――――――――――――――――― ┏ Random Cecan ┓ ―――――――――――――――――――――――――――――――――――――――――― \\
-router.get("/api/cecan/china", cekKey, async (req, res, next) => {
-  let china = await fetchJson(
-    "https://raw.githubusercontent.com/razn-id/data-rest-api/main/cecanchina.json"
-  );
-  let result = china[Math.floor(Math.random() * china.length)];
-  limitapikey(req.query.apikey);
-  let gambar = await getBuffer(result);
-  res.set("Content-Type", "image/png");
-  res.send(gambar);
-});
+// router.get("/api/cecan/china", cekKey, async (req, res, next) => {
+//   let china = await fetchJson(
+//     "https://raw.githubusercontent.com/razn-id/data-rest-api/main/cecanchina.json"
+//   );
+//   let result = china[Math.floor(Math.random() * china.length)];
+//   limitapikey(req.query.apikey);
+//   let gambar = await getBuffer(result);
+//   res.set("Content-Type", "image/png");
+//   res.send(gambar);
+// });
 
-router.get("/api/cecan/vietnam", cekKey, async (req, res, next) => {
-  let vietnam = await fetchJson(
-    "https://raw.githubusercontent.com/razn-id/data-rest-api/main/cecanvietnam.json"
-  );
-  limitapikey(req.query.apikey);
-  let result = vietnam[Math.floor(Math.random() * vietnam.length)];
-  let gambar = await getBuffer(result);
-  res.set("Content-Type", "image/png");
-  res.send(gambar);
-});
+// router.get("/api/cecan/vietnam", cekKey, async (req, res, next) => {
+//   let vietnam = await fetchJson(
+//     "https://raw.githubusercontent.com/razn-id/data-rest-api/main/cecanvietnam.json"
+//   );
+//   limitapikey(req.query.apikey);
+//   let result = vietnam[Math.floor(Math.random() * vietnam.length)];
+//   let gambar = await getBuffer(result);
+//   res.set("Content-Type", "image/png");
+//   res.send(gambar);
+// });
 
-router.get("/api/cecan/thailand", cekKey, async (req, res, next) => {
-  let thailand = await fetchJson(
-    "https://raw.githubusercontent.com/razn-id/data-rest-api/main/cecanthailand.json"
-  );
-  limitapikey(req.query.apikey);
-  let result = thailand[Math.floor(Math.random() * thailand.length)];
-  let gambar = await getBuffer(result);
-  res.set("Content-Type", "image/png");
-  res.send(gambar);
-});
+// router.get("/api/cecan/thailand", cekKey, async (req, res, next) => {
+//   let thailand = await fetchJson(
+//     "https://raw.githubusercontent.com/razn-id/data-rest-api/main/cecanthailand.json"
+//   );
+//   limitapikey(req.query.apikey);
+//   let result = thailand[Math.floor(Math.random() * thailand.length)];
+//   let gambar = await getBuffer(result);
+//   res.set("Content-Type", "image/png");
+//   res.send(gambar);
+// });
 
-router.get("/api/cecan/indonesia", cekKey, async (req, res, next) => {
-  let indo = await fetchJson(
-    "https://raw.githubusercontent.com/razn-id/data-rest-api/main/cecanindo.json"
-  );
-  limitapikey(req.query.apikey);
-  let result = indo[Math.floor(Math.random() * indo.length)];
-  let gambar = await getBuffer(result);
-  res.set("Content-Type", "image/png");
-  res.send(gambar);
-});
+// router.get("/api/cecan/indonesia", cekKey, async (req, res, next) => {
+//   let indo = await fetchJson(
+//     "https://raw.githubusercontent.com/razn-id/data-rest-api/main/cecanindo.json"
+//   );
+//   limitapikey(req.query.apikey);
+//   let result = indo[Math.floor(Math.random() * indo.length)];
+//   let gambar = await getBuffer(result);
+//   res.set("Content-Type", "image/png");
+//   res.send(gambar);
+// });
 
-router.get("/api/cecan/korea", cekKey, async (req, res, next) => {
-  let korea = await fetchJson(
-    "https://raw.githubusercontent.com/razn-id/data-rest-api/main/cecankorea.json"
-  );
-  limitapikey(req.query.apikey);
-  let result = korea[Math.floor(Math.random() * korea.length)];
-  let gambar = await getBuffer(result);
-  res.set("Content-Type", "image/png");
-  res.send(gambar);
-});
+// router.get("/api/cecan/korea", cekKey, async (req, res, next) => {
+//   let korea = await fetchJson(
+//     "https://raw.githubusercontent.com/razn-id/data-rest-api/main/cecankorea.json"
+//   );
+//   limitapikey(req.query.apikey);
+//   let result = korea[Math.floor(Math.random() * korea.length)];
+//   let gambar = await getBuffer(result);
+//   res.set("Content-Type", "image/png");
+//   res.send(gambar);
+// });
 
-router.get("/api/cecan/jepang", cekKey, async (req, res, next) => {
-  let jepang = await fetchJson(
-    "https://raw.githubusercontent.com/razn-id/data-rest-api/main/cecanjepang.json"
-  );
-  limitapikey(req.query.apikey);
-  let result = jepang[Math.floor(Math.random() * jepang.length)];
-  let gambar = await getBuffer(result);
-  res.set("Content-Type", "image/png");
-  res.send(gambar);
-});
+// router.get("/api/cecan/jepang", cekKey, async (req, res, next) => {
+//   let jepang = await fetchJson(
+//     "https://raw.githubusercontent.com/razn-id/data-rest-api/main/cecanjepang.json"
+//   );
+//   limitapikey(req.query.apikey);
+//   let result = jepang[Math.floor(Math.random() * jepang.length)];
+//   let gambar = await getBuffer(result);
+//   res.set("Content-Type", "image/png");
+//   res.send(gambar);
+// });
 
-router.get("/api/cecan/malaysia", cekKey, async (req, res, next) => {
-  let malay = await fetchJson(
-    "https://raw.githubusercontent.com/razn-id/data-rest-api/main/cecanmalay.json"
-  );
-  limitapikey(req.query.apikey);
-  let result = malay[Math.floor(Math.random() * malay.length)];
-  let gambar = await getBuffer(result);
-  res.set("Content-Type", "image/png");
-  res.send(gambar);
-});
+// router.get("/api/cecan/malaysia", cekKey, async (req, res, next) => {
+//   let malay = await fetchJson(
+//     "https://raw.githubusercontent.com/razn-id/data-rest-api/main/cecanmalay.json"
+//   );
+//   limitapikey(req.query.apikey);
+//   let result = malay[Math.floor(Math.random() * malay.length)];
+//   let gambar = await getBuffer(result);
+//   res.set("Content-Type", "image/png");
+//   res.send(gambar);
+// });
 //―――――――――――――――――――――――――――――――――――――――――― ┏ Maker ┓ ―――――――――――――――――――――――――――――――――――――――――― \\
 
 router.get("/api/maker/circle", cekKey, async (req, res) => {
