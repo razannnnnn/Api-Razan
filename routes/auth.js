@@ -241,11 +241,7 @@ router.get("/verifyemail", async (req, res) => {
       userData.isVerified = true;
       await userData.save();
       await VerifyUser.findOneAndDelete({ token: token });
-      res.redirect("/login");
-      req.flash(
-        "success_messages",
-        "Your Account Has Been Verified, Please Login"
-      );
+      res.redirect("/docs");
     } else {
       if (req.user) {
         res.redirect("docs");
