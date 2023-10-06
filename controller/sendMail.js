@@ -114,7 +114,7 @@ module.exports.sendResetEmail = async (email, token) => {
               <tr>
                 <td align="center" valign="top" style="padding: 36px 24px;">
                   <a href="https://${domain}" target="_blank" style="display: inline-block;">
-                    <img src="https://avatars.githubusercontent.com/u/98217172?v=4" alt="Logo" border="0" width="100" style="display: block; width: 100px; max-width: 100px; min-width: 100px;">
+                    <img src="https://i.postimg.cc/4NkfZjMr/icon.png" alt="Logo" border="0" width="100" style="display: block; width: 100px; max-width: 100px; min-width: 100px;">
                   </a>
                 </td>
               </tr>
@@ -316,7 +316,7 @@ module.exports.sendVerifyEmail = async (email, token) => {
               <tr>
                 <td align="center" valign="top" style="padding: 36px 24px;">
                   <a href="https://${domain}" target="_blank" style="display: inline-block;">
-                  <img src="https://avatars.githubusercontent.com/u/98217172?v=4" alt="Logo" border="0" width="100" style="display: block; width: 100px; max-width: 100px; min-width: 100px;">
+                  <img src="https://i.postimg.cc/4NkfZjMr/icon.png" alt="Logo" border="0" width="100" style="display: block; width: 100px; max-width: 100px; min-width: 100px;">
                   </a>
                 </td>
               </tr>
