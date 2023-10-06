@@ -125,7 +125,6 @@ or
 | Sound Of Text | ✔️  |
 | Search        | ✔️  |
 | Random Gambar | ✔️  |
-| Random Cecan  | ✔️  |
 | Game          | ✔️  |
 | Maker         | ✔️  |
 | Link Short    | ✔️  |
