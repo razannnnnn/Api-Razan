@@ -212,7 +212,7 @@ router.get("/send-verification-email", checkAuth, async (req, res) => {
     res.redirect("/docs");
   } else {
     if (check) {
-      req.flash("error_messages", "Please Dont Spam Wait After 30 minit.");
+      req.flash("error_messages", "Please Dont Spam Wait After 30 min.");
       res.redirect("/docs");
     } else {
       var token = crypto.randomBytes(32).toString("hex");
@@ -224,7 +224,7 @@ router.get("/send-verification-email", checkAuth, async (req, res) => {
       } else {
         req.flash(
           "success_messages",
-          "Done Sent Email Link Expired After 30 min."
+          "Done Sent Email, Please Check Spam Folder, Expired After 30 min."
         );
         res.redirect("/docs");
       }
@@ -289,7 +289,7 @@ router.post(
       if (Cooldown) {
         req.flash(
           "error_messages",
-          "Please Dont Spam Wait After 30 minit after new submit."
+          "Please Dont Spam Wait After 30 min after new submit."
         );
         res.redirect("/forgot-password");
       } else {
@@ -302,7 +302,7 @@ router.post(
           await resetToken({ token: token, email: email }).save();
           req.flash(
             "success_messages",
-            "Check your email for more info, wait 30 minutes after new submit."
+            "Check your email for more info, wait 30 min after new submit."
           );
           res.redirect("/forgot-password");
         }
