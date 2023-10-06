@@ -1,26 +1,12 @@
 //Baterry
-// var batteryLevel = document.getElementById("batteryLevel");
-// var styleBatteryLevel = batteryLevel.style;
-// var percentageLevel = document.getElementById("percentageLevel");
-// navigator.getBattery().then(function (battery) {
-//   function updateAllBatteryInfo() {
-//     updateLevelInfo();
-//   }
-//   updateAllBatteryInfo();
-//   battery.addEventListener("levelchange", function () {
-//     setInterval(function () {
-//       updateLevelInfo();
-//     }, 1000);
-//   });
-//   function updateLevelInfo() {
-//     var numBattery = battery.level * 100;
-//     percentageLevel.textContent = Math.round(numBattery) + "%";
-//     styleBatteryLevel.height = numBattery + "%";
-//     if (numBattery <= 15) {
-//       styleBatteryLevel.background = "red";
-//     }
-//   }
-// });
+tag_battery_level = document.querySelector("h2#battery_level");
+
+setInterval(function () {
+  navigator.getBattery().then((battery) => {
+    battery_level = String(battery.level).split(".,");
+    tag_battery_level.innerHTML = `${battery_level * 100}% `;
+  });
+}, 10);
 // Tanggal
 window.setTimeout("tgl()", 1000);
 function tgl() {

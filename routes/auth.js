@@ -224,7 +224,7 @@ router.get("/send-verification-email", checkAuth, async (req, res) => {
       } else {
         req.flash(
           "success_messages",
-          "Done Sent Email Link Expired After 30 mnit."
+          "Done Sent Email Link Expired After 30 min."
         );
         res.redirect("/docs");
       }

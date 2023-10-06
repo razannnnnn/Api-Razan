@@ -7,6 +7,10 @@
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <link rel="stylesheet" href="/css/docs/style.css" />
     <title>Razan API | Docs</title>
   </head>
@@ -1013,6 +1017,30 @@
       <!-- MAIN -->
       <main>
         <h1 class="title">Dashboard</h1>
+        <!-- Alert Warning Verify -->
+        <% if(!verified){ %>
+        <div class="alert">
+          <div class="msg">
+            Atention! Please verify your account to continue using our services.
+            <a class="alert-a" href="/send-verification-email"
+              >Send Verification Email</a
+            >
+          </div>
+        </div>
+        <% } %>
+        <!-- Alert Success -->
+        <% if( success_messages !="" ){ %>
+        <div class="alert-success">
+          <div class="msg">Success! <%= success_messages %>.</div>
+        </div>
+        <% } %>
+        <!-- Alert Error -->
+        <% if( error_messages !="" ){ %>
+        <div class="alert">
+          <div class="msg">Error! <%= error_messages %>.</div>
+        </div>
+        <% } %>
+
         <div class="info-data">
           <div class="card">
             <div class="head">
@@ -1063,7 +1091,7 @@
             <div class="head">
               <div>
                 <p>Your Battery</p>
-                <h2>0%</h2>
+                <h2 id="battery_level">Waiting...</h2>
               </div>
               <i class="bx bx-battery icon"></i>
             </div>

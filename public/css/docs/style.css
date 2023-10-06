@@ -517,3 +517,27 @@ main .btn-send:hover {
     display: none;
   }
 }
+
+/* ALERTS */
+.alert {
+  margin-top: 5px;
+  background: #ffeadd;
+  padding: 15px 24px;
+  min-width: 300px;
+  border-radius: 5px;
+  border-left: 8px solid #ff6666;
+}
+
+.alert .msg .alert-a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.alert-success {
+  margin-top: 5px;
+  background: #cedebd;
+  padding: 15px 24px;
+  min-width: 300px;
+  border-radius: 5px;
+  border-left: 8px solid #435334;
+}
