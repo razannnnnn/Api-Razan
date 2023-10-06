@@ -138,8 +138,8 @@ or
 [`alpis.eu.org `](https://alpis.eu.org)<br>
 
 - ## Support Deploy Free
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 [![Run on Repl.it](https://repl.it/badge/github/razn-id/Api-Razan)](https://replit.com)
-
 
 ## `Credit 💳 Script`
 
