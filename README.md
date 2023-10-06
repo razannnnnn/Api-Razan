@@ -138,8 +138,8 @@ or
 [`alpis.eu.org `](https://alpis.eu.org)<br>
 
 - ## Support Deploy Free
-  <a href="https://replit.com"><img src="https://telegra.ph/file/8d225f38ce1920182e313.png" width="300" height="200">
-  <a href="https://dashboard.render.com"><img src="https://telegra.ph/file/6125fb68b97cdd156fc67.png" width="400" height="200">
+[![Run on Repl.it](https://repl.it/badge/github/razn-id/Api-Razan)](https://replit.com)
+
 
 ## `Credit 💳 Script`
 
