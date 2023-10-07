@@ -34,10 +34,10 @@
 [![MongoDB](https://telegra.ph/file/1bc5c9749e8a46d167619.png)](https://www.mongodb.com/cloud/atlas/register)
 
 ### STEP 3: Create an SMTP Email Account
-[Tutorial: How to Create a Free SMTP Email](https://www.youtube.com/watch?v=1YXVdyVuFGA)
+[How to Create a Free SMTP Email](https://www.youtube.com/watch?v=1YXVdyVuFGA)
 
 ### STEP 4: Create a Render Account
-https://dashboard.render.com/register
+[Create Account](https://dashboard.render.com/register)
 
 1. Create a new web service.
 2. Connect your GitHub account and select the forked repository.
