@@ -132,7 +132,7 @@ app.use(function (req, res, next) {
   next(createError(404));
 });
 app.use(function (err, req, res, next) {
-  res.send(loghandler.notfound);
+  res.render("404");
 });
 
 module.exports = app;
