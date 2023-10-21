@@ -34,9 +34,11 @@
 [![MongoDB](https://telegra.ph/file/1bc5c9749e8a46d167619.png)](https://www.mongodb.com/cloud/atlas/register)
 
 ### STEP 3: Create an SMTP Email Account
+
 [How to Create a Free SMTP Email](https://www.youtube.com/watch?v=1YXVdyVuFGA)
 
 ### STEP 4: Create a Render Account
+
 [Create Account](https://dashboard.render.com/register)
 
 1. Create a new web service.
@@ -53,6 +55,7 @@ sendpwmail = "SMTP Email Password"
 recaptcha_key_1 = 'Your reCAPTCHA V1 Key'
 recaptcha_key_2 = 'Your reCAPTCHA V2 Key'
 ```
+
 Get Apikey Recaptcha From https://www.google.com/recaptcha/admin/create
 
 6. Create the web service.
@@ -69,10 +72,13 @@ Edit the file `settings.js` for the following configurations:
 ## 🚀 Usage
 
 Start the application with:
+
 ```
 npm start
 ```
+
 or
+
 ```
 npm run node
 ```

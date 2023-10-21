@@ -18,7 +18,7 @@ const BitlyClient = require("bitly").BitlyClient;
 const canvasGif = require("canvas-gif");
 const { convertStringToNumber } = require("convert-string-to-number");
 const isImageURL = require("image-url-validator").default;
-const { fetchJson, getBuffer } = require("../lib/myfunc");
+const { fetchJson, getBuffer, runtime } = require("../lib/myfunc");
 const Canvacord = require("canvacord");
 const isNumber = require("is-number");
 const User = require("../model/user");
@@ -67,7 +67,7 @@ async function cekKey(req, res, next) {
       message: "[!] Apikey Tidak Ditemukan",
     });
   } else if (!db.isVerified) {
-    return res.send(loghandler.verify)
+    return res.send(loghandler.verify);
   } else if (db.limitApikey === 0) {
     return res.json({
       status: false,
@@ -87,6 +87,30 @@ async function limitapikey(apikey) {
     { upsert: true, new: true }
   );
 }
+
+//―――――――――――――――――――――――――――――――――――――――――― ┏  Api Test  ┓ ―――――――――――――――――――――――――――――――――――――――――― \\
+router.get("/test", async (req, res) => {
+  res.json({
+    status: 200,
+    creator: `${creator}`,
+    result: `Hello`,
+    method: `GET`,
+  });
+});
+router.get("/cekapikey", cekKey, async (req, res) => {
+  const apikey = req.query.apikey;
+  let db = await User.findOne({ apikey: apikey });
+  res.json({
+    status: 200,
+    creator: `${creator}`,
+    result: {
+      username: `${db.username}`,
+      email: `${db.email}`,
+      apikey: `${db.apikey}`,
+      limit: `${db.limitApikey}`,
+    },
+  });
+});
 
 //―――――――――――――――――――――――――――――――――――――――――― ┏  Dowloader  ┓ ―――――――――――――――――――――――――――――――――――――――――― \\
 
