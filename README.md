@@ -1,3 +1,5 @@
+> **Warning**: Project ini atau repo ini tidak akan dilanjutkan lagi, jika mau tolong fork dan recode sendiri, untuk selanjutnya menunggu info terbaru dari pesan ini.
+
 <p align="center">
   <img src="https://i.postimg.cc/4NkfZjMr/icon.png" width="200" height="200" alt="Logo">
 </p>
