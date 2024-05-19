@@ -24,9 +24,9 @@
 </p>
 
 ## 🛠️ Setup
-STEP 1: Fork this GitHub Repository
-STEP 2: Create a MongoDB Account and Database
-STEP 3: Create an SMTP Email Account
+1. Fork this GitHub Repository
+2. Create a MongoDB Account and Database
+3. Create an SMTP Email Account
 
 [How to Create a Free SMTP Email](https://www.youtube.com)
 
