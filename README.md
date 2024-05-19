@@ -18,7 +18,6 @@ Razan Api (Recode From <code>AlipBot/ApiAlpis</code>)
   <a href="https://github.com/razn-id/Api-Razan/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained-No-red.svg"></a>&nbsp;&nbsp;
 </p>
 
----
 
 # Installation
 
