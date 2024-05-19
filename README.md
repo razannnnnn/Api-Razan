@@ -24,10 +24,17 @@
 </p>
 
 ## Installation
-### 1. Fork this GitHub Repository
-### 2. Create a MongoDB Account and Database
-### 3. Create an SMTP Email Account
-### 4. Create a Render Account
+### Fork this GitHub Repository
+Click `fork` button, and customize name, desc, etc.
+
+### Create a MongoDB Account and Database
+Go to [MongoDb](https://www.mongodb.com/), and create your account.
+
+### Create an SMTP Email Account
+Create your SMTP email account, you can use your SMTP server, or use free SMTP server.
+
+### Create a Render Account
+Click => [Render](https://render.com/), and create your account, if done you can follow this step.
 
 1. Create a new web service.
 2. Connect your GitHub account and select the forked repository.
