@@ -1,7 +1,7 @@
 {
-  "name": "rest-api-razan",
-  "version": "2.0.0",
-  "description": "make by alip & recode by razan free rest api",
+  "name": "api-razan",
+  "version": "1.0.0",
+  "description": "Make by Alip & recode by Razan (Free Api)",
   "main": "index.js",
   "engines": {
     "node": "16.x"
@@ -9,25 +9,6 @@
   "directories": {
     "lib": "lib"
   },
-  "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/razn-id/Api-Razan.git"
-  },
-  "keywords": [
-    "restapi",
-    "bot",
-    "whatsaap"
-  ],
-  "author": "AlipBot",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/razn-id/Api-Razan/issues"
-  },
-  "homepage": "https://github.com/razn-id/Api-Razan#readme",
   "dependencies": {
     "@bochilteam/scraper": "^4.2.3",
     "axios": "^0.27.2",
@@ -85,5 +66,26 @@
     "translate-google": "^1.5.0",
     "yt-search": "^2.10.3",
     "ytdl-core": "^4.11.4"
-  }
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razn-id/Api-Razan.git"
+  },
+  "keywords": [
+    "api",
+    "restapi",
+    "whatsapp",
+    "bot",
+    "nodejs"
+  ],
+  "author": "razn-id",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/razn-id/Api-Razan/issues"
+  },
+  "homepage": "https://github.com/razn-id/Api-Razan#readme"
 }
