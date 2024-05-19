@@ -23,7 +23,7 @@
   <a href="https://github.com/razn-id/Api-Razan/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained-No-red.svg"></a>&nbsp;&nbsp;
 </p>
 
-## Setup
+## Installation
 ### 1. Fork this GitHub Repository
 ### 2. Create a MongoDB Account and Database
 ### 3. Create an SMTP Email Account
