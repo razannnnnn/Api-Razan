@@ -3,12 +3,6 @@
 </p>
 
 <p align="center">
-  <a href="#">
-    <img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Welcome+To+Rest+Api+Razan+" alt="Typing Animation">
-  </a>
-</p>
-
-<p align="center">
   <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-Razan X Alip-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 
@@ -23,45 +17,53 @@
   <a href="https://github.com/razn-id/Api-Razan/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained-No-red.svg"></a>&nbsp;&nbsp;
 </p>
 
-## Installation
-### Fork this GitHub Repository
-Click `fork` button, and customize name, desc, etc.
+---
 
-### Create a MongoDB Account and Database
-Go to [MongoDb](https://www.mongodb.com/), and create your account.
+# Installation
 
-### Create an SMTP Email Account
-Create your SMTP email account, you can use your SMTP server, or use free SMTP server.
+### Step 1: Fork the GitHub Repository
+- Click the `Fork` button at the top-right of the repository page.
+- Customize the name, description, etc., if desired.
 
-### Create a Render Account
-Click => [Render](https://render.com/), and create your account, if done you can follow this step.
+### Step 2: Create a MongoDB Account and Database
+- Visit [MongoDB](https://www.mongodb.com/).
+- Sign up for an account.
+- Create a new database and obtain the connection string (MongoDB URI).
 
-1. Create a new web service.
-2. Connect your GitHub account and select the forked repository.
-3. Set the build command to `npm install`.
-4. Set the start command to `npm start`.
-5. Click on "Advanced" and add the following environment variables:
-    ```
+### Step 3: Create an SMTP Email Account
+- Set up an SMTP email account.
+- You can use your own SMTP server or a free SMTP service.
+- Obtain the SMTP server details and credentials.
+
+### Step 4: Create a Render Account and Deploy the Service
+1. Sign up at [Render](https://render.com/).
+2. Create a new web service on Render.
+3. Connect your GitHub account to Render.
+4. Select the forked repository.
+5. Set the build command to `npm install`.
+6. Set the start command to `npm start`.
+7. Click "Advanced" and add the following environment variables:
+    ```env
     mongodb = "Your MongoDB Database Key"
-    sendemail = 'Your SMTP Email'
-    fromsendemail = 'Same as SMTP Email'
+    sendemail = "Your SMTP Email"
+    fromsendemail = "Same as SMTP Email"
     sendpwmail = "SMTP Email Password"
-    recaptcha_key_1 = 'Your reCAPTCHA V1 Key'
-    recaptcha_key_2 = 'Your reCAPTCHA V2 Key'
+    recaptcha_key_1 = "Your reCAPTCHA V1 Key"
+    recaptcha_key_2 = "Your reCAPTCHA V2 Key"
     ```
-    Get Apikey Recaptcha From [Google reCAPTCHA](https://www.google.com/recaptcha/admin/create)
+   - Get API keys for reCAPTCHA from [Google reCAPTCHA](https://www.google.com/recaptcha/admin/create).
+8. Create the web service.
+9. After deployment, update the environment variables in the Render dashboard as needed.
 
-6. Create the web service.
-7. After successful deployment, add your website's domain to the settings file and update the reCAPTCHA keys in the environment variables.
 
-## Configuration
+# Configuration
 
 Edit the file `settings.js` for the following configurations:
 - Change the Creator's name.
 - Change the port.
 - Adjust the API key limit.
 
-## Usage
+# Usage
 
 Start the application with:
 
@@ -75,9 +77,7 @@ or
 npm run start
 ```
 
-## Features
-
-### Script Features
+# Features
 - Login
 - Sign Up
 - No Temporary Email
@@ -106,7 +106,6 @@ npm run start
 - [api.rivqi.my.id](http://api.rivqi.my.id)
 - [alpis.eu.org](http://alpis.eu.org)
 
-## Support Deploy Free
 
 ## Credits
 - [AlipBot](https://github.com/AlipBot)
