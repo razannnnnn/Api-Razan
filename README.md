@@ -1,10 +1,11 @@
-<p align="center">
-  <img src="https://i.postimg.cc/4NkfZjMr/icon.png" width="200" height="200" alt="Logo">
-</p>
+<h1 align="center">
+Razan Api (Recode From <code>AlipBot/ApiAlpis</code>)
+</h1>
 
-<p align="center">
+
+<!-- <p align="center">
   <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-Razan X Alip-red.svg?style=for-the-badge&logo=github"></a>
-</p>
+</p> -->
 
 <p align="center">
   <a href="https://github.com/razn-id?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/razn-id?color=green&style=flat-square"></a>
