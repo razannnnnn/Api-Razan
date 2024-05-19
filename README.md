@@ -1,11 +1,29 @@
-# Api-Razan
+<p align="center">
+  <img src="https://i.postimg.cc/4NkfZjMr/icon.png" width="200" height="200" alt="Logo">
+</p>
 
-Free Rest API for Bot Whatsapp (Recode from AlipBot/ApiAlpis)
+<p align="center">
+  <a href="#">
+    <img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Welcome+To+Rest+Api+Razan+" alt="Typing Animation">
+  </a>
+</p>
 
-## Warning
-Project ini atau repo ini tidak akan dilanjutkan lagi. Jika mau, tolong fork dan recode sendiri. Untuk selanjutnya, menunggu info terbaru dari pesan ini.
+<p align="center">
+  <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-Razan X Alip-red.svg?style=for-the-badge&logo=github"></a>
+</p>
 
-## Setup
+<p align="center">
+  <a href="https://github.com/razn-id?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/razn-id?color=green&style=flat-square"></a>
+  <a href="https://github.com/razn-id/Api-Razan/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/razn-id/Api-Razan?color=white&style=flat-square"></a>
+  <a href="https://github.com/razn-id/Api-Razan/network/members"><img title="Forks" src="https://img.shields.io/github/forks/razn-id/Api-Razan?color=yellow&style=flat-square"></a>
+  <a href="https://github.com/razn-id/Api-Razan/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/razn-id/Api-Razan?label=Watchers&color=red&style=flat-square"></a>
+  <a href="https://github.com/razn-id/Api-Razan"><img title="Open Source" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
+  <a href="https://github.com/razn-id/Api-Razan/"><img title="Size" src="https://img.shields.io/github/repo-size/razn-id/Api-Razan?style=flat-square&color=darkred"></a>
+  <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Frazn-id%2FApi-Razan%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2304FF00&title=hits&edge_flat=false"/></a>
+  <a href="https://github.com/razn-id/Api-Razan/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained-No-red.svg"></a>&nbsp;&nbsp;
+</p>
+
+## 🛠️ Setup
 
 ### STEP 1: Fork this GitHub Repository
 
