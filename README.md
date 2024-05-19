@@ -102,11 +102,11 @@ npm run start
 - Tools
 - Islamic
 
-## Deployment
+# Deployment
 - [api.rivqi.my.id](http://api.rivqi.my.id)
 - [alpis.eu.org](http://alpis.eu.org)
 
 
-## Credits
+# Credits
 - [AlipBot](https://github.com/AlipBot)
 - [razn-id](https://github.com/razn-id)
