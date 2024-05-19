@@ -27,9 +27,6 @@
 ### 1. Fork this GitHub Repository
 ### 2. Create a MongoDB Account and Database
 ### 3. Create an SMTP Email Account
-
-[How to Create a Free SMTP Email](https://www.youtube.com)
-
 ### 4. Create a Render Account
 
 1. Create a new web service.
