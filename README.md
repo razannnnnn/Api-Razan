@@ -103,7 +103,7 @@ npm run start
 - Islamic
 
 # Deployment
-- [api.rivqi.my.id](http://api.rivqi.my.id)
+- [api.rivqi.xyz](http://api.rivqi.xyz)
 - [alpis.eu.org](http://alpis.eu.org)
 
 
