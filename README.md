@@ -1,6 +1,5 @@
-<h1 align="center">
-Razan Api (Recode From <code>AlipBot/ApiAlpis</code>)
-</h1>
+
+![Api-Razan](https://socialify.git.ci/razn-id/Api-Razan/image?description=1&font=Inter&forks=1&language=1&name=1&owner=1&pattern=Charlie%20Brown&stargazers=1&theme=Auto)
 
 
 <!-- <p align="center">
